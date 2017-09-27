@@ -73,11 +73,4 @@ public class DatabaseConfig {
 	public HibernateJpaSessionFactoryBean sessionFactory() {
 	    return new HibernateJpaSessionFactoryBean();
 	}
-	
-	/*@Bean
-	public HibernateJpaSessionFactoryBean getHibernateBean(){
-		return new HibernateJpaSessionFactoryBean();
-		
-	}*/
-	
 }
